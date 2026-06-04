@@ -2,6 +2,14 @@
 
 Static landing page for `https://go.hanpass.com/`.
 
+## Preview
+
+- Repository: https://github.com/mhjang-qa/GO.hanpss_homepage
+- Active HTML preview: https://htmlpreview.github.io/?https://github.com/mhjang-qa/GO.hanpss_homepage/blob/main/index.html
+- GitHub Pages URL after enabling Pages from `main` / root: https://mhjang-qa.github.io/GO.hanpss_homepage/
+
+GitHub Pages setup: Settings > Pages > Build and deployment > Source: `Deploy from a branch`, Branch: `main`, Folder: `/root`.
+
 ## Routing
 
 - `/` serves the GO Hanpass landing page.
