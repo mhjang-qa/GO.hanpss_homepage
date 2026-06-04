@@ -92,6 +92,12 @@ img { display: block; max-width: 100%; height: auto; }
   border-radius: 8px;
 }
 
+.language-picker.is-active select,
+.language-picker select:focus {
+  border-color: var(--blue);
+  outline: 3px solid rgba(37, 99, 235, 0.14);
+}
+
 .menu-button {
   display: none;
   width: 42px;

@@ -40,34 +40,34 @@
   </head>
   <body>
     <header class="site-header" data-header>
-      <a class="brand" href="./" aria-label="GO Hanpass home">
+      <a class="brand" href="./" aria-label="GO Hanpass home" data-i18n-attr="aria-label:brand.homeLabel">
         <img src="./assets/images/logo-gohanpass.svg" alt="GO Hanpass" width="220" height="60">
       </a>
-      <nav class="desktop-nav" aria-label="Main navigation">
-        <a href="#features">Features</a>
-        <a href="#compare">Service</a>
-        <a href="#card">Tourist Card</a>
-        <a href="#download">Download</a>
+      <nav class="desktop-nav" aria-label="Main navigation" data-i18n-attr="aria-label:nav.mainLabel">
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#compare" data-i18n="nav.service">Service</a>
+        <a href="#card" data-i18n="nav.touristCard">Tourist Card</a>
+        <a href="#download" data-i18n="nav.download">Download</a>
       </nav>
       <div class="header-actions">
         <label class="language-picker">
-          <span class="sr-only">Language</span>
-          <select aria-label="Language">
-            <option>EN</option>
-            <option>KO</option>
-            <option>JA</option>
-            <option>ZH</option>
+          <span class="sr-only" data-i18n="language.label">Language</span>
+          <select aria-label="Language" data-language-select data-i18n-attr="aria-label:language.label">
+            <option value="en">EN</option>
+            <option value="ko">KO</option>
+            <option value="ja">JA</option>
+            <option value="zh">ZH</option>
           </select>
         </label>
-        <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>
+        <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button data-i18n-attr="aria-label:nav.openMenu">
           <span></span><span></span><span></span>
         </button>
       </div>
-      <nav class="mobile-nav" aria-label="Mobile navigation" data-mobile-nav>
-        <a href="#features">Features</a>
-        <a href="#compare">Service</a>
-        <a href="#card">Tourist Card</a>
-        <a href="#download">Download</a>
+      <nav class="mobile-nav" aria-label="Mobile navigation" data-mobile-nav data-i18n-attr="aria-label:nav.mobileLabel">
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#compare" data-i18n="nav.service">Service</a>
+        <a href="#card" data-i18n="nav.touristCard">Tourist Card</a>
+        <a href="#download" data-i18n="nav.download">Download</a>
       </nav>
     </header>
 
@@ -75,53 +75,53 @@
       <section class="hero" id="download">
         <div class="hero-copy">
           <img class="hero-logo" src="./assets/images/logo-gohanpass.svg" alt="GO Hanpass" width="220" height="60">
-          <p class="eyebrow">Korea travel platform for visitors</p>
-          <h1>Travel Korea Smarter with GO Hanpass</h1>
-          <p class="lead">All-in-one travel companion for foreign visitors in Korea. Find places, move around, pay, and enjoy Korea with one service.</p>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Korea travel platform for visitors</p>
+          <h1 data-i18n="hero.title">Travel Korea Smarter with GO Hanpass</h1>
+          <p class="lead" data-i18n="hero.description">All-in-one travel companion for foreign visitors in Korea. Find places, move around, pay, and enjoy Korea with one service.</p>
           <div class="hero-actions">
-            <a class="button primary" href="https://abr.ge/irj978" rel="noopener">Download App</a>
-            <a class="button secondary" href="https://go.hanpass.com/home?language=en" rel="noopener">Open GO Hanpass</a>
+            <a class="button primary" href="https://abr.ge/irj978" rel="noopener" data-i18n="hero.downloadApp">Download App</a>
+            <a class="button secondary" href="https://go.hanpass.com/home?language=en" rel="noopener" data-i18n="hero.openApp">Open GO Hanpass</a>
           </div>
-          <div class="qr-panel" aria-label="GO Hanpass app download QR code">
-            <img src="./assets/images/qr-gohanpass.png" alt="QR code to install GO Hanpass app" width="120" height="120">
+          <div class="qr-panel" aria-label="GO Hanpass app download QR code" data-i18n-attr="aria-label:qr.panelLabel">
+            <img src="./assets/images/qr-gohanpass.png" alt="QR code to install GO Hanpass app" width="120" height="120" data-i18n-attr="alt:qr.imageAlt">
             <div>
-              <strong>Scan to download</strong>
-              <span>Use the mobile CTA when browsing on your phone.</span>
+              <strong data-i18n="qr.title">Scan to download</strong>
+              <span data-i18n="qr.description">Use the mobile CTA when browsing on your phone.</span>
             </div>
           </div>
         </div>
-        <div class="hero-visual" aria-label="GO Hanpass app mockup">
+        <div class="hero-visual" aria-label="GO Hanpass app mockup" data-i18n-attr="aria-label:mockup.panelLabel">
           <div class="phone">
-            <img src="./assets/images/app-home-mockup.png" alt="GO Hanpass app home screen showing card application, recommended destinations, transport shortcuts, and bottom navigation" width="390" height="844">
+            <img src="./assets/images/app-home-mockup.png" alt="GO Hanpass app home screen showing card application, recommended destinations, transport shortcuts, and bottom navigation" width="390" height="844" data-i18n-attr="alt:mockup.imageAlt">
           </div>
         </div>
       </section>
 
       <section class="intro band">
-        <p class="eyebrow">From arrival to departure</p>
-        <h2>One pass for exploring, moving, paying, and enjoying Korea.</h2>
-        <p>GO Hanpass supports foreign visitors with passport-based onboarding, 18 languages, a travel wallet, tourist card, mobility booking, and local recommendations.</p>
+        <p class="eyebrow" data-i18n="intro.eyebrow">From arrival to departure</p>
+        <h2 data-i18n="intro.title">One pass for exploring, moving, paying, and enjoying Korea.</h2>
+        <p data-i18n="intro.description">GO Hanpass supports foreign visitors with passport-based onboarding, 18 languages, a travel wallet, tourist card, mobility booking, and local recommendations.</p>
       </section>
 
       <section class="compare" id="compare">
         <div class="section-head">
-          <p class="eyebrow">GO Hanpass service</p>
-          <h2>Built for short-term visitors in Korea</h2>
+          <p class="eyebrow" data-i18n="compare.eyebrow">GO Hanpass service</p>
+          <h2 data-i18n="compare.title">Built for short-term visitors in Korea</h2>
         </div>
         <div class="table-wrap">
           <table>
-            <caption>GO Hanpass service summary</caption>
+            <caption data-i18n="compare.caption">GO Hanpass service summary</caption>
             <thead>
-              <tr><th scope="col">Category</th><th scope="col">GO Hanpass</th></tr>
+              <tr><th scope="col" data-i18n="compare.category">Category</th><th scope="col">GO Hanpass</th></tr>
             </thead>
             <tbody>
-              <tr><th scope="row">Target</th><td>Foreign visitors in Korea for short-term travel</td></tr>
-              <tr><th scope="row">Platform</th><td>Mobile web + app for iOS and Android</td></tr>
-              <tr><th scope="row">Core service</th><td>Map-based route guidance, mobility booking and payment, tourist convenience, wallet charging and payment</td></tr>
-              <tr><th scope="row">Finance</th><td>Wallet, card, barcode and QR payments, remaining balance refund</td></tr>
-              <tr><th scope="row">Move</th><td>Connect route search to mobility calls, reservations, payments, and transportation card use</td></tr>
-              <tr><th scope="row">Convenience</th><td>Tourist attractions, restaurants, hospitals, festivals, wellness, and K-style local information</td></tr>
-              <tr><th scope="row">Signup</th><td>Simple passport-based signup</td></tr>
+              <tr><th scope="row" data-i18n="compare.targetLabel">Target</th><td data-i18n="compare.targetValue">Foreign visitors in Korea for short-term travel</td></tr>
+              <tr><th scope="row" data-i18n="compare.platformLabel">Platform</th><td data-i18n="compare.platformValue">Mobile web + app for iOS and Android</td></tr>
+              <tr><th scope="row" data-i18n="compare.coreLabel">Core service</th><td data-i18n="compare.coreValue">Map-based route guidance, mobility booking and payment, tourist convenience, wallet charging and payment</td></tr>
+              <tr><th scope="row" data-i18n="compare.financeLabel">Finance</th><td data-i18n="compare.financeValue">Wallet, card, barcode and QR payments, remaining balance refund</td></tr>
+              <tr><th scope="row" data-i18n="compare.moveLabel">Move</th><td data-i18n="compare.moveValue">Connect route search to mobility calls, reservations, payments, and transportation card use</td></tr>
+              <tr><th scope="row" data-i18n="compare.convenienceLabel">Convenience</th><td data-i18n="compare.convenienceValue">Tourist attractions, restaurants, hospitals, festivals, wellness, and K-style local information</td></tr>
+              <tr><th scope="row" data-i18n="compare.signupLabel">Signup</th><td data-i18n="compare.signupValue">Simple passport-based signup</td></tr>
             </tbody>
           </table>
         </div>
@@ -129,44 +129,44 @@
 
       <section class="features" id="features">
         <div class="section-head">
-          <p class="eyebrow">Main features</p>
-          <h2>Travel essentials in one flow</h2>
+          <p class="eyebrow" data-i18n="features.eyebrow">Main features</p>
+          <h2 data-i18n="features.title">Travel essentials in one flow</h2>
         </div>
         <div class="feature-grid">
           <article>
             <span class="feature-icon">01</span>
-            <h3>Explore</h3>
-            <p>Find nearby restaurants, tourist attractions, cultural facilities, festivals, wellness spots, and K-style stores.</p>
+            <h3 data-i18n="features.exploreTitle">Explore</h3>
+            <p data-i18n="features.exploreText">Find nearby restaurants, tourist attractions, cultural facilities, festivals, wellness spots, and K-style stores.</p>
           </article>
           <article>
             <span class="feature-icon">02</span>
-            <h3>Move</h3>
-            <p>Search places, check routes, and connect to taxi, KTX, express bus, airport transport, or city mobility services.</p>
+            <h3 data-i18n="features.moveTitle">Move</h3>
+            <p data-i18n="features.moveText">Search places, check routes, and connect to taxi, KTX, express bus, airport transport, or city mobility services.</p>
           </article>
           <article>
             <span class="feature-icon">03</span>
-            <h3>Pay</h3>
-            <p>Charge once and pay with wallet, barcode, QR, prepaid card, and transportation card while traveling.</p>
+            <h3 data-i18n="features.payTitle">Pay</h3>
+            <p data-i18n="features.payText">Charge once and pay with wallet, barcode, QR, prepaid card, and transportation card while traveling.</p>
           </article>
           <article>
             <span class="feature-icon">04</span>
-            <h3>Enjoy</h3>
-            <p>Get travel information and recommendations that help visitors plan the next stop like a local.</p>
+            <h3 data-i18n="features.enjoyTitle">Enjoy</h3>
+            <p data-i18n="features.enjoyText">Get travel information and recommendations that help visitors plan the next stop like a local.</p>
           </article>
         </div>
       </section>
 
       <section class="card-section band" id="card">
         <div>
-          <p class="eyebrow">Tourist card promotion</p>
-          <h2>GO Hanpass Card</h2>
-          <p>Use one card for prepaid payments and transportation. Domestic payments earn 0.3% cashback with no previous-month spending requirement or cashback cap.</p>
+          <p class="eyebrow" data-i18n="card.eyebrow">Tourist card promotion</p>
+          <h2 data-i18n="card.title">GO Hanpass Card</h2>
+          <p data-i18n="card.description">Use one card for prepaid payments and transportation. Domestic payments earn 0.3% cashback with no previous-month spending requirement or cashback cap.</p>
         </div>
         <div class="benefit-list">
-          <span>Prepaid card</span>
-          <span>Transportation card</span>
-          <span>0.3% cashback</span>
-          <span>Balance refund</span>
+          <span data-i18n="card.prepaid">Prepaid card</span>
+          <span data-i18n="card.transportation">Transportation card</span>
+          <span data-i18n="card.cashback">0.3% cashback</span>
+          <span data-i18n="card.refund">Balance refund</span>
         </div>
       </section>
     </main>
@@ -174,11 +174,11 @@
     <footer class="site-footer">
       <div>
         <strong>HANPASS Co., Ltd.</strong>
-        <p>GO Hanpass is operated as a travel service for foreign visitors in Korea.</p>
+        <p data-i18n="footer.description">GO Hanpass is operated as a travel service for foreign visitors in Korea.</p>
       </div>
-      <nav aria-label="Footer navigation">
+      <nav aria-label="Footer navigation" data-i18n-attr="aria-label:footer.navLabel">
         <a href="https://www.hanpass.com/" rel="noopener">Hanpass</a>
-        <a href="https://www.hanpass.com/kr/business/gohanpass" rel="noopener">Service page</a>
+        <a href="https://www.hanpass.com/kr/business/gohanpass" rel="noopener" data-i18n="footer.servicePage">Service page</a>
         <a href="https://go.hanpass.com/pc-guard">PC Guard</a>
       </nav>
     </footer>
