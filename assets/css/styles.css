@@ -151,6 +151,15 @@ h1 {
   line-height: 1.02;
 }
 
+html[lang="ko"] h1,
+html[lang="ja"] h1,
+html[lang="zh"] h1 {
+  max-width: 820px;
+  font-size: clamp(46px, 5.2vw, 72px);
+  line-height: 1.12;
+  word-break: keep-all;
+}
+
 h2 {
   margin-bottom: 18px;
   font-size: clamp(30px, 4vw, 48px);
@@ -458,6 +467,12 @@ tbody tr:last-child td { border-bottom: 0; }
 
   h1 {
     font-size: 42px;
+  }
+
+  html[lang="ko"] h1,
+  html[lang="ja"] h1,
+  html[lang="zh"] h1 {
+    font-size: 36px;
   }
 
   h2 {

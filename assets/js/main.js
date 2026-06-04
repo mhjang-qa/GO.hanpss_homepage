@@ -46,7 +46,7 @@ const translations = {
     },
     hero: {
       eyebrow: "Korea travel platform for visitors",
-      title: "Travel Korea Smarter<br>with GO Hanpass",
+      title: "Travel Smarter<br>with GO Hanpass",
       description: "All-in-one travel companion for foreign visitors in Korea. Find places, move around, pay, and enjoy Korea with one service.",
       downloadApp: "Download App",
       openApp: "Open GO Hanpass",
@@ -135,7 +135,7 @@ const translations = {
     },
     hero: {
       eyebrow: "방한 관광객을 위한 한국 여행 플랫폼",
-      title: "GO Hanpass로<br>한국 여행을 더 스마트하게",
+      title: "GO Hanpass로<br>스마트한 한국 여행",
       description: "GO Hanpass는 방한 외국인 관광객을 위한 올인원 여행 동반자입니다. 장소 탐색부터 이동, 결제, 여행 정보까지 하나의 서비스로 이용할 수 있습니다.",
       downloadApp: "앱 다운로드",
       openApp: "GO Hanpass 열기",
@@ -224,7 +224,7 @@ const translations = {
     },
     hero: {
       eyebrow: "韓国を訪れる旅行者のための旅行プラットフォーム",
-      title: "GO Hanpassで<br>韓国旅行をもっとスマートに",
+      title: "GO Hanpassで<br>スマートな韓国旅行を",
       description: "GO Hanpassは、韓国を訪れる外国人旅行者のためのオールインワン旅行パートナーです。スポット検索、移動、決済、旅行情報まで、ひとつのサービスで利用できます。",
       downloadApp: "アプリをダウンロード",
       openApp: "GO Hanpassを開く",
@@ -313,7 +313,7 @@ const translations = {
     },
     hero: {
       eyebrow: "面向访韩游客的韩国旅行平台",
-      title: "用GO Hanpass<br>让韩国旅行更智能",
+      title: "用GO Hanpass<br>智享韩国旅行",
       description: "GO Hanpass是面向访韩外国游客的一站式旅行伙伴。从地点探索、出行到支付和旅行资讯，一个服务即可完成。",
       downloadApp: "下载应用",
       openApp: "打开GO Hanpass",
